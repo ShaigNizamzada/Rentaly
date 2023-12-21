@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/OwlCarousel2-master/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/OwlCarousel2-master/dist/assets/owl.theme.default.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Homework 11</title>
+  </head>
+  <body>
+    <!-- ------------------------HEADER STARTING --------------------- -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./assets/ui/logo.png"
+              style="height: 60px; width: 150px"
+              alt="Bootstrap"
+              width="30"
+              height="24"
+              class="ms-5"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Home
+                </a>
+                <ul class="dropdown-menu py-2">
+                  <li>
+                    <a class="dropdown-item py-2" href="#"
+                      >New: Homepage 1 Dark</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#"
+                      >New: Homepage 2 Dark</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Homepage main</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Homepage 2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Homepage 3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Homepage 4</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Homepage 5</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Homepage 6</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Cars
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Cars List 1 </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Cars List 1 Dark</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Cars List 2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Cars List 2 Dark</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Cars Single</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Cars Single Dark</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Booking</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  My Account
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Dashboard</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">My Profile</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">My Orders</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">My Favorite Cars</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                  <li><a class="dropdown-item" href="#">Login</a></li>
+                  <li><a class="dropdown-item" href="#">Register</a></li>
+                  <li><a class="dropdown-item" href="#">Page 404</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  News
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">News Standard</a></li>
+                  <li><a class="dropdown-item" href="#">News Grid</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Elements
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Preloader</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Icon Boxes</a>
+                  </li>
+                  <li><a class="dropdown-item py-2" href="#">Badge</a></li>
+                  <li><a class="dropdown-item py-2" href="#">Counters</a></li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Gallery Popup</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Icons Elegant</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#">Icons Etline</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#"
+                      >Icons Font Awesome</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item py-2" href="#">Map</a></li>
+                  <li><a class="dropdown-item py-2" href="#">Modal</a></li>
+                  <li><a class="dropdown-item py-2" href="#">Popover</a></li>
+                  <li><a class="dropdown-item py-2" href="#">Tabs</a></li>
+                  <li><a class="dropdown-item py-2" href="#">Tooltips</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button type="button" class="btn button-3 btn-success px-4 me-5">
+              Sign In
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ----------------------HEADER ENDING-------------------------- -->
+
+    <!-- -----------------------MAIN STARTING--------------------- -->
+    <main>
+      <!-- -----------------------HERO STARTING--------------------- -->
+
+      <section class="hero">
+        <div class="container-fluid col-xxl-12 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6"></div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+                Explore the world with comfortable car
+              </h1>
+              <p class="lead col-lg-10">
+                Embark on unforgettable adventures and discover the world in
+                unparalleled comfort and style with our fleet of exceptionally
+                comfortable cars.
+              </p>
+
+              <div class="container d-flex">
+                <div class="row col-lg-6">
+                  <div class="class d-flex col-lg-12 col-md-12 col-12">
+                    <div class="icon">
+                      <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <div class="class-text">
+                      <h4>First class services</h4>
+                      <p>
+                        Est dolore ut laboris eu enim <br />
+                        eu veniam nostrud esse laborum <br />
+                        duis
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row col-lg-6">
+                  <div class="class d-flex col-lg-12 col-md-12 col-12">
+                    <div class="icon"><i class="fa-solid fa-road"></i></div>
+                    <div class="class-text">
+                      <h4>24/7 road assistance</h4>
+                      <p>
+                        Est dolore ut laboris eu enim eu <br />veniam nostrud
+                        esse laborum <br />duis
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-grid gap-2 d-md-flex justify-content-md-start col-lg-6 col-12"
+              >
+                <button
+                  type="button"
+                  class="btn btn-success btn-lg px-4 me-md-2"
+                >
+                  Choose a car
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -----------------------HERO ENDING--------------------- -->
+
+      <!-- --------------------OWL CAROUSEL STARTING-------------------->
+
+      <section class="container carousel my-5">
+        <div class="my-5">
+          <h1 class="text-center">Our Vehicle Fleet</h1>
+          <p class="text-center">
+            Driving your dreams to reality with an exquisite fleet of versatile
+            vehicles for <br />unforgettable journeys.
+          </p>
+        </div>
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card" data-aos="zoom-in">
+              <img
+                src="./assets/cars/jeep-renegade.jpg"
+                class="card-img-top"
+                alt="jeep-renegade"
+              />
+              <div class="card-body">
+                <h5 class="card-title ps-2">Jeep Renegade</h5>
+                <div class="item-like">
+                  <i class="fa-solid fa-heart"></i> <span>74</span>
+                </div>
+                <div class="card-text-group">
+                  <span class="card-text">
+                    <img src="./assets/icons/1-green.svg" alt="logo" />
+                    5
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/2-green.svg" alt="logo" />
+                    2
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/3-green.svg" alt="logo" />
+                    4
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/4-green.svg" alt="logo" />
+                    SUV
+                  </span>
+                </div>
+                <div class="card-price">
+                  Daily rate form
+                  <span>$ 265</span>
+                  <a href="#" class="btn btn-success px-3 me-1">Rent Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card" data-aos="zoom-in">
+              <img
+                src="./assets/cars/bmw-m5.jpg"
+                class="card-img-top"
+                alt="bmw-m5"
+              />
+              <div class="card-body">
+                <h5 class="card-title ps-2">BMW M2</h5>
+                <div class="item-like">
+                  <i class="fa-solid fa-heart"></i> <span>36</span>
+                </div>
+                <div class="card-text-group">
+                  <span class="card-text">
+                    <img src="./assets/icons/1-green.svg" alt="logo" />
+                    5
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/2-green.svg" alt="logo" />
+                    2
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/3-green.svg" alt="logo" />
+                    4
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/4-green.svg" alt="logo" />
+                    Sedan
+                  </span>
+                </div>
+                <div class="card-price">
+                  Daily rate form
+                  <span>$ 244</span>
+                  <a href="#" class="btn btn-success px-3 me-1">Rent Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card" data-aos="zoom-in">
+              <img
+                src="./assets/cars/ferrari-enzo.jpg"
+                class="card-img-top"
+                alt="ferrari-enzo"
+              />
+              <div class="card-body">
+                <h5 class="card-title ps-2">Ferrari Enzo</h5>
+                <div class="item-like">
+                  <i class="fa-solid fa-heart"></i> <span>85</span>
+                </div>
+                <div class="card-text-group">
+                  <span class="card-text">
+                    <img src="./assets/icons/1-green.svg" alt="logo" />
+                    5
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/2-green.svg" alt="logo" />
+                    2
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/3-green.svg" alt="logo" />
+                    4
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/4-green.svg" alt="logo" />
+                    Exotic Car
+                  </span>
+                </div>
+                <div class="card-price">
+                  Daily rate form
+                  <span>$ 167</span>
+                  <a href="#" class="btn btn-success px-3 me-1">Rent Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card" data-aos="zoom-in">
+              <img
+                src="./assets/cars/ford-raptor.jpg"
+                class="card-img-top"
+                alt="ferrari-enzo"
+              />
+              <div class="card-body">
+                <h5 class="card-title ps-2">Ford Raptor</h5>
+                <div class="item-like">
+                  <i class="fa-solid fa-heart"></i> <span>59</span>
+                </div>
+                <div class="card-text-group">
+                  <span class="card-text">
+                    <img src="./assets/icons/1-green.svg" alt="logo" />
+                    5
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/2-green.svg" alt="logo" />
+                    2
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/3-green.svg" alt="logo" />
+                    4
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/4-green.svg" alt="logo" />
+                    Truck
+                  </span>
+                </div>
+                <div class="card-price">
+                  Daily rate form
+                  <span>$ 147</span>
+                  <a href="#" class="btn btn-success px-3 me-1">Rent Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card" data-aos="zoom-in">
+              <img
+                src="./assets/cars/mini-cooper.jpg"
+                class="card-img-top"
+                alt="ferrari-enzo"
+              />
+              <div class="card-body">
+                <h5 class="card-title ps-2">Mini Cooper</h5>
+                <div class="item-like">
+                  <i class="fa-solid fa-heart"></i> <span>19</span>
+                </div>
+                <div class="card-text-group">
+                  <span class="card-text">
+                    <img src="./assets/icons/1-green.svg" alt="logo" />
+                    5
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/2-green.svg" alt="logo" />
+                    2
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/3-green.svg" alt="logo" />
+                    4
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/4-green.svg" alt="logo" />
+                    Hatchback
+                  </span>
+                </div>
+                <div class="card-price">
+                  Daily rate form
+                  <span>$ 238</span>
+                  <a href="#" class="btn btn-success px-3 me-1">Rent Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card" data-aos="zoom-in">
+              <img
+                src="./assets/cars/vw-polo.jpg"
+                class="card-img-top"
+                alt="ferrari-enzo"
+              />
+              <div class="card-body">
+                <h5 class="card-title ps-2">VW POLO</h5>
+                <div class="item-like">
+                  <i class="fa-solid fa-heart"></i> <span>79</span>
+                </div>
+                <div class="card-text-group">
+                  <span class="card-text">
+                    <img src="./assets/icons/1-green.svg" alt="logo" />
+                    5
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/2-green.svg" alt="logo" />
+                    2
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/3-green.svg" alt="logo" />
+                    4
+                  </span>
+                  <span class="card-text">
+                    <img src="./assets/icons/4-green.svg" alt="logo" />
+                    Hatchback
+                  </span>
+                </div>
+                <div class="card-price">
+                  Daily rate form
+                  <span>$ 106</span>
+                  <a href="#" class="btn btn-success px-3 me-1">Rent Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ---------------------OWL CAROUSEL ENDING------------------- -->
+      <!-- ---------------------TESTIMONIAL STARTING------------------- -->
+      <section class="testimonial">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6">
+            <div class="woman-driver" data-aos="zoom-in-right"></div>
+          </div>
+
+          <div
+            class="texting col-12 col-sm-12 col-md-6 p-2"
+            data-aos="zoom-in-left"
+          >
+            <h1 class="px-5 pt-5">Only Quality For Clients</h1>
+            <div class="my-5 px-5">
+              <button class="btn btn-success px-3">LUXURY</button>
+              <button class="btn btn-def ms-3 px-3">COMFORT</button>
+              <button class="btn btn-def ms-3 px-3">PRESTIGE</button>
+            </div>
+            <p class="col-10 px-5">
+              We offer a meticulously curated collection of the most
+              sought-after luxury vehicles on the market. Whether you prefer the
+              sporty allure of a high-performance sports car, the sophistication
+              of a sleek and luxurious sedan, or the versatility of a premium
+              SUV, we have the perfect car to match your discerning taste.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ---------------------TESTIMONIAL ENDING------------------- -->
+      <!--------------------SERVICES STARTING-------------------------->
+      <section class="services my-5 p-2">
+        <div class="container">
+          <div class="row ms-1">
+            <div class="col-sm-12 col-md-12 col-lg-3 pe-4 mb-5">
+              <h2>Explore the world with comfortable car</h2>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+              <i class="fa-solid fa-trophy mb-3"></i>
+              <h5>First Class Services</h5>
+              <p>
+                Where luxury meets exceptional care, creating unforgettable
+                moments and exceeding your every expectation.
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+              <i class="fa-solid fa-road mb-3"></i>
+              <h5>24/7 road assistance</h5>
+              <p>
+                Reliable support when you need it most, keeping you on the move
+                with confidence and peace of mind.
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-3">
+              <i class="fa-solid fa-map-pin mb-3"></i>
+              <h5>Free Pick-Up & Drop-Off</h5>
+              <p>
+                Enjoy free pickup and drop-off services, adding an extra layer
+                of ease to your car rental experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------SERVICES ENDING-------------------------->
+      <!--------------------BLOCKQUOTE STARTING-------------------------->
+      <section class="blockquote">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4 mb-3">
+              <div class="image-text" data-aos="flip-right">
+                <div class="text">
+                  <i class="fa-solid fa-quote-right mb-1"></i>
+                  <h5>Excellent Service! Car Rent Service!</h5>
+                  <blockquote>
+                    I have been using Rentaly for my Car Rental needs for over 5
+                    years now. I have never had any problems with their service.
+                    Their customer support is always responsive and helpful. I
+                    would recommend Rentaly to anyone looking for a reliable Car
+                    Rental provider.
+                  </blockquote>
+                  <span>Stepanie Hutchkiss</span>
+                </div>
+                <img src="./assets/testimonial/1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 mb-3">
+              <div class="image-text" data-aos="flip-right">
+                <div class="text">
+                  <i class="fa-solid fa-quote-right mb-1"></i>
+                  <h5>Excellent Service! Car Rent Service!</h5>
+                  <blockquote>
+                    I have been using Rentaly for my Car Rental needs for over 5
+                    years now. I have never had any problems with their service.
+                    Their customer support is always responsive and helpful. I
+                    would recommend Rentaly to anyone looking for a reliable Car
+                    Rental provider.
+                  </blockquote>
+                  <span>Stepanie Hutchkiss</span>
+                </div>
+                <img src="./assets/testimonial/2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4 mb-3">
+              <div class="image-text" data-aos="flip-right">
+                <div class="text">
+                  <i class="fa-solid fa-quote-right mb-1"></i>
+                  <h5>Excellent Service! Car Rent Service!</h5>
+                  <blockquote>
+                    I have been using Rentaly for my Car Rental needs for over 5
+                    years now. I have never had any problems with their service.
+                    Their customer support is always responsive and helpful. I
+                    would recommend Rentaly to anyone looking for a reliable Car
+                    Rental provider.
+                  </blockquote>
+                  <span>Stepanie Hutchkiss</span>
+                </div>
+                <img src="./assets/testimonial/3.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--------------------BLOCKQUOTE ENDING-------------------------->
+      <!------------------------NEWS STARTING-------------------------->
+      <section class="news my-5">
+        <div class="container">
+          <div class="mt-5">
+            <h1 class="text-center">Latest News</h1>
+            <p class="text-center">
+              Breaking news, fresh perspectives, and in-depth coverage - stay
+              ahead with our <br />
+              latest news, insights, and analysis.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="post-content" data-aos="zoom-out">
+                <div class="post-image">
+                  <div class="date-box">
+                    <div class="day">10</div>
+                    <div class="month">MAR</div>
+                  </div>
+                  <img src="./assets/news/pic-blog-1.jpg" alt="news" />
+                </div>
+                <div class="post-text">
+                  <h4>Enjoy Best Travel Experience</h4>
+                  <p>
+                    Dolore officia sint incididunt non excepteur ea mollit
+                    commodo ut enim reprehenderit cupidatat labore ad laborum
+                    consectetur.
+                  </p>
+                  <div class="btn btn-success py-2 px-4 my-2">Read More</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="post-content" data-aos="zoom-out">
+                <div class="post-image">
+                  <div class="date-box">
+                    <div class="day">12</div>
+                    <div class="month">MAR</div>
+                  </div>
+                  <img src="./assets/news/pic-blog-2.jpg" alt="news" />
+                </div>
+                <div class="post-text">
+                  <h4>The Future of Car Rent</h4>
+                  <p>
+                    Dolore officia sint incididunt non excepteur ea mollit
+                    commodo ut enim reprehenderit cupidatat labore ad laborum
+                    consectetur.
+                  </p>
+                  <div class="btn btn-success py-2 px-4 my-2">Read More</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="post-content" data-aos="zoom-out">
+                <div class="post-image">
+                  <div class="date-box">
+                    <div class="day">14</div>
+                    <div class="month">MAR</div>
+                  </div>
+                  <img src="./assets/news/pic-blog-3.jpg" alt="news" />
+                </div>
+                <div class="post-text">
+                  <h4>Holiday Tips For Backpacker</h4>
+                  <p>
+                    Dolore officia sint incididunt non excepteur ea mollit
+                    commodo ut enim reprehenderit cupidatat labore ad laborum
+                    consectetur.
+                  </p>
+                  <div class="btn btn-success py-2 px-4 my-2">Read More</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------------NEWS ENDING-------------------------->
+      <!-- -----------------------ABOUT STARTING------------------------>
+      <section class="about-com bg-success">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-3" data-aos="fade-up">
+              <div class="text-box text-center bg-light p-4 m-1">
+                <h3>15425</h3>
+                <h6>Completed Orders</h6>
+                <p>
+                  Lorem ipsum adipisicing officia in adipisicing do velit sit
+                  tempor ea consectetur.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-3" data-aos="fade-up">
+              <div class="text-box text-center bg-light p-4 m-1">
+                <h3>8745</h3>
+                <h6>Happy Customers</h6>
+                <p>
+                  Lorem ipsum adipisicing officia in adipisicing do velit sit
+                  tempor ea consectetur.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-3" data-aos="fade-up">
+              <div class="text-box text-center bg-light p-4 m-1">
+                <h3>235</h3>
+                <h6>Vehicles Fleet</h6>
+                <p>
+                  Lorem ipsum adipisicing officia in adipisicing do velit sit
+                  tempor ea consectetur.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-3" data-aos="fade-up">
+              <div class="text-box text-center bg-light p-4 m-1">
+                <h3>15</h3>
+                <h6>Years Experience</h6>
+                <p>
+                  Lorem ipsum adipisicing officia in adipisicing do velit sit
+                  tempor ea consectetur.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- -----------------------ABOUT ENDING------------------------>
+
+      <!-- -----------------------MARQUEE STARTING------------------------>
+      <div class="marquee">
+        <marquee behavior="scroll"
+          >SUV <i class="d-item-dot"></i>Hatchback Crossover Convertible Sedan
+          Coupe Minivan Station Wa gon Truck Minivans Exotic
+        </marquee>
+      </div>
+      <!-- -----------------------MARQUEE ENDING------------------------>
+      <!-- -----------------------MAIN ENDING------------------------>
+    </main>
+    <!---------------------FOOTER STARTING--------------------------->
+    <footer class="bd-footer py-4 py-md-5 bg-black">
+      <div class="container py-4 py-md-5 px-4 px-md-1 text-body-secondary">
+        <div class="row">
+          <div class="col-lg-4 mb-3 ml">
+            <h2>About Rentary</h2>
+            <p>
+              Where quality meets affordability. We understand the importance of
+              a smooth and enjoyable journey without the burden of excessive
+              costs. That's why we have meticulously crafted our offerings to
+              provide you with top-notch vehicles at minimum expense.
+            </p>
+          </div>
+          <div class="col-6 col-lg-3 offset-lg-1 mb-3 contact-info">
+            <h5>Contact Info</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <p>
+                  <i class="fa-solid fa-location-dot"></i> 08 W 36th St, New
+                  York, NY 10001
+                </p>
+              </li>
+              <li class="mb-2">
+                <p><i class="fa-solid fa-phone"></i> +1 333 9296</p>
+              </li>
+              <li class="mb-2">
+                <a href="#"
+                  ><i class="fa-regular fa-envelope"></i> contact@example.com</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#"
+                  ><i class="fa-solid fa-file"></i> Download Brochure</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled quick-links">
+              <li class="mb-2">
+                <a href="#">About</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Blog</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Careers</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">News</a>
+              </li>
+              <li class="mb-2">
+                <a href="#">Partners</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-2 mb-3 social-network">
+            <h5>Social Network</h5>
+            <ul class="list-unstyled d-flex gap-2">
+              <li class="mb-2">
+                <a href="#" target="_blank" rel="noopener"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li class="mb-2">
+                <a href="#" target="_blank" rel="noopener"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li class="mb-2">
+                <a href="#" target="_blank" rel="noopener"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li class="mb-2">
+                <a href="#" target="_blank" rel="noopener"
+                  ><i class="fa-brands fa-pinterest-p"></i
+                ></a>
+              </li>
+              <li class="mb-2">
+                <a href="#" target="_blank" rel="noopener"
+                  ><i class="fa-solid fa-rss"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!---------------------FOOTER ENDING--------------------------->
+
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./assets/jquery.min.js"></script>
+    <script src="./assets/OwlCarousel2-master/dist/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 2,
+          },
+          1400: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

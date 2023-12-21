@@ -1,0 +1,377 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+/* -------------HEADER STARTING--------------------- */
+html {
+  overflow-x: hidden;
+}
+header .navbar {
+  position: fixed !important;
+  width: 100%;
+  z-index: 1111;
+}
+header .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
+}
+header .navbar .container-fluid .collapse .navbar-nav ul li a:hover {
+  background-color: green;
+  color: white;
+  transition: 0.5s;
+}
+header .navbar .container-fluid .collapse .navbar-nav ul {
+  border: none !important;
+  box-shadow: 0 0 1px black;
+}
+header .navbar .container-fluid .collapse .navbar-nav .nav-item {
+  font-weight: bold !important;
+}
+
+/* ----------------------HEADER ENDING----------------- */
+
+/* ----------------------MAIN STARTING----------------- */
+
+/* ----------------------HERO STARTING----------------- */
+
+.hero {
+  background-image: url(./background/6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 7% 0% !important;
+}
+.hero .container-fluid .row h1,
+.hero .container-fluid .row .lead {
+  padding-left: 10%;
+}
+.hero .container-fluid .row .col-lg-6 h1 {
+  color: white !important;
+  letter-spacing: -1px;
+  line-height: 1.3 !important;
+}
+.hero .container-fluid .row .col-lg-6 p {
+  color: rgb(210, 207, 207) !important;
+}
+.hero .container-fluid .row .icon .fa-solid {
+  color: white;
+  background-color: green;
+  padding: 16px;
+  font-size: 24px;
+  border-radius: 5px;
+}
+.hero .container-fluid .row .container {
+  padding-left: 10%;
+}
+.hero .container-fluid .row .col-lg-6 .d-grid {
+  padding-left: 10%;
+}
+.container .row .class .class-text h4 {
+  color: green;
+}
+.hero .container-fluid .row .col-lg-6 .container .row {
+  gap: 10%;
+}
+.container .row .class {
+  gap: 5%;
+}
+/* ----------------------HERO ENDING----------------- */
+
+/* ----------------------------OWL CAROUSEL STARTING------------ */
+.owl-carousel .item .card .card-img-top {
+  width: 100%;
+  height: auto;
+  padding: 10px !important;
+  border-radius: 20px;
+  transition: transform 0.5s;
+}
+.owl-carousel .item .card .card-img-top:hover {
+  transform: scale(1.1);
+}
+.owl-carousel .item .card {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.container .my-5 h1,
+.container .my-5 p {
+  color: #031b4e;
+}
+.container .my-5 h1 {
+  letter-spacing: -2px;
+  font-size: 48px;
+}
+.card-body {
+  position: relative;
+}
+.card-body .card-title {
+  color: #031b4e;
+}
+.owl-carousel .item .card .card-body .item-like {
+  position: absolute;
+  top: 16px;
+  left: 360px;
+}
+.container .owl-carousel .item .card .card-body .item-like .fa-solid {
+  color: #cccccc;
+}
+.container .owl-carousel .item .card .card-body .card-text-group {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 15px;
+}
+.container .owl-carousel .item .card .card-body .card-text-group .card-text {
+  display: inline-block;
+  font-weight: Bold;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-left: 5px;
+  color: #031b4e;
+}
+.container
+  .owl-carousel
+  .item
+  .card
+  .card-body
+  .card-text-group
+  .card-text
+  img {
+  display: block;
+  float: left;
+  width: 18px;
+  margin-right: 3px;
+}
+.container .owl-carousel .item .card .card-body .card-price {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 6px;
+  font-size: 16px;
+}
+.container .owl-carousel .item .card .card-body .card-price span {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #031b4e;
+}
+.container .owl-carousel .item .card .card-body .card-price a {
+  position: absolute;
+  right: 0;
+  bottom: 3%;
+}
+/* ----------------------------OWL CAROUSEL ENDING--------------------- */
+/* ----------------------------TESTIOMONIAL STARTING------------ */
+.woman-driver {
+  width: 100%;
+  height: 70vh;
+  box-sizing: border-box;
+  background-image: url(./background/5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* overflow: scroll; */
+}
+.testimonial .row .btn-def:hover {
+  color: green;
+}
+.testimonial .row .texting {
+  background-color: #f8f8f8;
+}
+/* ----------------------------TESTIOMONIAL ENDING--------------------- */
+/* ----------------------------SERVICES STARTING----------------------- */
+.services .container {
+  margin-top: 60px;
+}
+.services .container .row h2 {
+  font-size: 42px;
+  color: #031b4e;
+  letter-spacing: -1.8px;
+  line-height: 50px;
+}
+.services .container .row h5 {
+  font-weight: bold;
+}
+.services .container .row .fa-solid {
+  color: white;
+  font-size: 32px;
+  padding: 20px;
+  background-color: #59ca37;
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+  font-weight: bold;
+}
+/* ----------------------------SERVICES ENDING------------------------- */
+/* ----------------------------BLOCKQUOTE STARTING---------------------- */
+.blockquote .container .row .image-text {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.blockquote .container .row .image-text img {
+  transition: transform 0.6s;
+}
+.blockquote .container .row .image-text .text {
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  position: absolute;
+  background: linear-gradient(
+    0deg,
+    rgba(30, 30, 30, 0) 20%,
+    rgba(30, 30, 30, 1) 100%
+  );
+  z-index: 1;
+}
+.blockquote .container .row .image-text .text h5 {
+  padding-bottom: 30px;
+}
+.blockquote .container .row .image-text:hover img {
+  transform: scale(1.1);
+}
+.blockquote .container .row .image-text blockquote,
+.blockquote .container .row .image-text span {
+  font-size: 15px;
+  color: rgb(225, 225, 225);
+  line-height: 24px;
+  border: none;
+}
+.blockquote .container .row .image-text .text .fa-solid {
+  color: #59ca37;
+  text-align: right;
+  font-size: 48px;
+  display: block;
+}
+.blockquote .container .row img {
+  width: 100%;
+}
+
+/* ----------------------------BLOCKQUOTE ENDING------------------------ */
+/* ---------------------------NEWS STARTING---------------------------- */
+
+.news .container .row .post-content {
+  position: relative;
+  overflow: hidden;
+  margin: 40px 0;
+}
+.news .container .mt-5 h1 {
+  color: #031b4e;
+  letter-spacing: -1px;
+  font-size: 48px;
+}
+.news .container .mt-5 p {
+  font-size: 18px;
+}
+
+.news .container .row .post-content .post-image {
+  position: relative;
+  overflow: hidden;
+}
+.news .container .row .post-content .post-image .date-box {
+  position: absolute;
+  width: 54px;
+  background-color: #59ca37;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  margin: 15px;
+}
+.news .container .row .post-content .post-image .date-box .day {
+  font-weight: bold;
+  font-size: 28px;
+}
+.news .container .row .post-content .post-image .date-box .month {
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+.news .container .row .post-content .post-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+.news .container .row .post-content .post-text {
+  position: relative;
+  padding: 20px 30px;
+  background: white;
+  border-radius: 10px 10px 0 0;
+  margin: -50px 20px 0 20px;
+  border-bottom: 2px solid #59ca37;
+  z-index: 999;
+  line-height: 2;
+  letter-spacing: -0.4px;
+}
+/* -------------------------------NEWS ENDING------------------------------ */
+
+/* -------------------------------ABOUT STARTING--------------------------- */
+.about-com {
+  padding: 72px !important;
+}
+.about-com .container .row h3 {
+  color: #59ca37;
+  font-weight: bold;
+}
+
+.about-com .container .row .col-12 .text-box {
+  border-radius: 10px;
+}
+/* -------------------------------ABOUT ENDING----------------------------- */
+/* -------------------------------MARQUEE STARTING----------------------------- */
+.marquee {
+  padding: 24px;
+  background-color: #181818;
+  color: #5fc63e;
+  font-size: 48px;
+  word-spacing: 64px;
+}
+
+/* -------------------------------MARQUEE ENDING----------------------------- */
+
+/* ----------------------MAIN ENDING----------------- */
+/* ----------------------------FOOTER STARTING------------------------ */
+footer h5,
+footer h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+footer p {
+  color: rgb(236, 231, 231);
+}
+.list-unstyled li a {
+  text-decoration: none;
+  color: white;
+  line-height: 1.5;
+}
+footer .container .row .list-unstyled li i {
+  cursor: pointer;
+}
+.list-unstyled li a:hover {
+  color: green;
+  transition: 0.5s;
+}
+footer .container .row .quick-links li {
+  padding-bottom: 5px;
+}
+.list-unstyled .fa-solid,
+.list-unstyled .fa-regular,
+.fa-brands {
+  color: green;
+}
+
+.list-unstyled .fa-brands,
+.list-unstyled .fa-regular,
+.list-unstyled .fa-solid {
+  background-color: #2a2a2a;
+  padding: 16px;
+  border-radius: 5px;
+}
+footer .container .row .contact-info .list-unstyled .fa-solid,
+footer .container .row .contact-info .list-unstyled .fa-regular {
+  background-color: #000000 !important;
+}
+.list-unstyled .fa-file,
+.list-unstyled .fa-location-dot {
+  padding-left: 18px;
+}
+.list-unstyled .fa-brands:hover,
+.list-unstyled .fa-regular:hover,
+.list-unstyled .fa-solid:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+
+/* ----------------------------FOOTER ENDING------------------------ */
